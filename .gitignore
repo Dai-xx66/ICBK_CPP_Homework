@@ -1,0 +1,7 @@
+.DS_Store
+.vscode/
+*.o
+*.out
+*.dSYM/
+01_for
+02_myclass
