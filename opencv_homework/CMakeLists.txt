@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(ICBK_CPP_Homework)
+find_package(OpenCV REQUIRED)
+add_executable(opencv_homework main.cpp)
+target_include_directories(opencv_homework ${OpenCV_INCLUDE_DIRS})
+target_link_libraries(opencv_homework ${OpenCV_LIBS})

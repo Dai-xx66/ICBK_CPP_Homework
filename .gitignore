@@ -6,3 +6,11 @@
 01_for
 01_while
 02_myclass
+# C++ 编译生成的可执行文件
+/deep_copy
+/stl_practice
+/stringstream
+
+# CMake 构建目录
+build/
+cmake-build-*/
