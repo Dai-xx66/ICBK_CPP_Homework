@@ -16,7 +16,7 @@ int main(){
     cv::threshold(gray, binary,127,255,cv::THRESH_BINARY);
 
     cv::Mat blurred;
-    cv::GaussianBlur(binary, blurred, cv::Size(5,5), 0);
+    cv::GaussianBlur(gray, blurred, cv::Size(5,5), 0);
     cv::imshow("Binary", binary);
     cv::imshow("Blurred",blurred);
     cv::waitKey(0);
